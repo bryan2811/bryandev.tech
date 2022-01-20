@@ -35,17 +35,17 @@ export default function FavouriteProjects() {
         <div className="grid gap-8 pb-40 md:grid-cols-3 lg:-mt-8">
           {/* Single card */}
           <a
-            href="https://tailwindmasterkit.com"
+            href="http://info.reprasis.org/" target={'_blank'}
             className="block w-full col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/tmk.jpg"
-                alt="portfolio"
-                className="transition ease-out transform hover:scale-125 duration-2000"
+                src="/info-reprasis-dark.png"
+                alt="Reprasis"
+                className="transition ease-out transform before:bg-red hover:scale-125 duration-2000"
               />
               <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
-                Tailwind Master Kit
+                Reprasis
               </h1>
               <h1 className="absolute text-xl font-bold bottom-10 left-10 text-gray-50">
                 01
@@ -54,18 +54,18 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://placeholdertech.in"
+            href="https://bryan2811.github.io/Airbnb/" target={'_blank'}
             className="block w-full col-span-3 shadow-2xl sm:col-span-2"
           >
             <div className="relative overflow-hidden">
               {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
               <img
-                src="/placeholdertech.png"
-                alt="portfolio"
+                src="/airbnb-clon.png"
+                alt="Airbnb Clon"
                 className="transition ease-out transform hover:scale-125 duration-2000"
               />
               <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
-                PlaceholderTech
+                Airbnb Clon
               </h1>
               <h1 className="absolute text-xl font-bold bottom-10 left-10 text-gray-50">
                 02
@@ -80,12 +80,12 @@ export default function FavouriteProjects() {
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
               <img
-                src="/portfolio.png"
-                alt="portfolio"
+                src="/agencia-project.png"
+                alt="Agencia Project"
                 className="object-cover transition ease-out transform shadow-2xl hover:scale-125 duration-2000"
               />
               <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
-                Portfolio
+                Travel Agency 
               </h1>
               <h1 className="absolute text-xl font-bold bottom-10 left-10 text-gray-50">
                 03
