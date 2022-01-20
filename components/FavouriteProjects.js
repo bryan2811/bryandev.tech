@@ -74,7 +74,7 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href=""
+            href="https://obscure-springs-20870.herokuapp.com/"
             className="block object-cover w-full col-span-3 sm:col-span-1"
           >
             <div className="relative overflow-hidden shadow-2xl">
