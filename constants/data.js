@@ -45,7 +45,7 @@ const userData = {
     {
       title: "Front-End Developer",
       company: "Leadbox HQ",
-      year: "2021",
+      year: "2020-2022",
       companyLink: "https://leadboxhq.com/",
       desc: "I am currently working in the Core Team developing new features, I am also in charge of improving the Core Web Vitals of each of the sites so that they have a good performance. I use SEO tools such as Ahrefs to check the status of the sites and make the corresponding corrections. I also take care of the development of new sites and the creation of Google Analytics accounts and customized Data Studio reports.",
     },
