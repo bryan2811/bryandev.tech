@@ -42,7 +42,7 @@ export default function Contact() {
                 </div>
               </a>
               <a href="mailto:brandonb2816@gmail.com">
-                <div className="flex flex-row items-center space-x-6 rounded-md border my-4 border-white hover:border hover:border-white p-4">
+                <div className="flex flex-row items-center space-x-6 rounded-md border my-4 border-white hover:border hover:border-blue-200 p-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -59,7 +59,7 @@ export default function Contact() {
                     </p>
                 </div>
               </a>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-white hover:border hover:border-white p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-white hover:border hover:border-blue-200 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
