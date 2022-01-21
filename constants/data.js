@@ -65,7 +65,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "",
+    "/Resume-Bryan-Silva.pdf",
   socialLinks: {
     instagram: "https://instagram.com/bryansilva28",
     twitter: "https://twitter.com/devsilv",
