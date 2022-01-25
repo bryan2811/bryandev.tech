@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import userData from "@constants/data";
 
 export default function Footer() {
@@ -8,7 +9,11 @@ export default function Footer() {
         <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div>
         <div className="flex flex-col justify-between mt-8 space-y-4 md:space-y-0 md:flex-row md:items-center">
           <div>
-            <p>&copy; <span className="text-blue-600">bryandev.tech</span> - All Rights Reserved.</p>
+            <Link href="/">
+              <a>
+                <p>&copy; <span className="text-blue-600">bryandev.tech</span> - All Rights Reserved.</p>
+              </a>
+            </Link>
           </div>
           <div className="flex flex-row items-center space-x-4">
             <a
