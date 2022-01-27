@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "Bryan Silva - Front-End Developer",
     description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
-    image: "/og-image.png",
+    image: "og-image.png",
     type: "website",
     ...customMeta,
   };
@@ -32,7 +32,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta property="og:site_name" content="Bryan Silva" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
-        <meta property="og:image" content={meta.image} />
+        <meta property="og:image" content={`https://bryandev.tech${router.asPath}${meta.image}`} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@devsilv" />
         <meta name="twitter:title" content={meta.title} />
