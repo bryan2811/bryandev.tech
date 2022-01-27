@@ -49,7 +49,7 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit,
+                If you see me as a good fit,
                 check my{" "}
                 <a
                   href={userData.resumeUrl}
@@ -57,7 +57,7 @@ export default function AboutMe() {
                   className="font-bold text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 dark:text-gray-300"
                 >
                   CV
-                </a>{" "}
+                </a>{" "} 📄
               </p>
             </div>
             {/* Social Links */}
