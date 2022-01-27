@@ -9,11 +9,7 @@ export default function Footer() {
         <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div>
         <div className="flex flex-col justify-between mt-8 space-y-4 md:space-y-0 md:flex-row md:items-center">
           <div>
-            <Link href="/">
-              <a>
-                <p>&copy; <span className="text-blue-600">bryandev.tech</span> - All Rights Reserved.</p>
-              </a>
-            </Link>
+              <p className="text-gray-500">Copyright &copy; 2022 <Link href="/"><a><span className="text-blue-600 dark:text-white">bryandev.tech</span></a></Link> - All rights reserved.</p>
           </div>
           <div className="flex flex-row items-center space-x-4">
             <a
