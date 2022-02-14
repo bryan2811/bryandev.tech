@@ -39,11 +39,15 @@ export default function FavouriteProjects() {
             className="block w-full col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
-              <img
-                src="/info-reprasis-dark.png"
-                alt="Reprasis"
-                className="transition ease-out transform before:bg-red hover:scale-125 duration-2000"
-              />
+              <picture>
+                <source srcset="/info-reprasis-dark.webp" type="image/webp"/> 
+                <source srcset="/info-reprasis-dark.png" type="image/png"/> 
+                <img
+                  src="/info-reprasis-dark.png"
+                  alt="Reprasis"
+                  className="transition ease-out transform before:bg-red hover:scale-125 duration-2000"
+                />
+              </picture>
               <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
                 Reprasis
               </h1>
@@ -59,11 +63,15 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden">
               {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
-              <img
-                src="/airbnb-clon.png"
-                alt="Airbnb Clon"
-                className="transition ease-out transform hover:scale-125 duration-2000"
-              />
+              <picture>
+                <source srcset="/airbnb-clon.webp" type="image/webp"/> 
+                <source srcset="/airbnb-clon.png" type="image/png"/> 
+                <img
+                  src="/airbnb-clon.png"
+                  alt="Airbnb Clon"
+                  className="transition ease-out transform hover:scale-125 duration-2000"
+                />
+              </picture>
               <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
                 Airbnb Clon
               </h1>
@@ -79,11 +87,15 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
-              <img
-                src="/agencia-project.png"
-                alt="Agencia Project"
-                className="object-cover transition ease-out transform shadow-2xl hover:scale-125 duration-2000"
-              />
+              <picture>
+                <source srcset="/agencia-project.webp" type="image/webp"/> 
+                <source srcset="/agencia-project.png" type="image/png"/> 
+                <img
+                  src="/agencia-project.png"
+                  alt="Agencia Project"
+                  className="object-cover w-full transition ease-out transform shadow-2xl hover:scale-125 duration-2000"
+                />
+              </picture>
               <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
                 Travel Agency 
               </h1>
