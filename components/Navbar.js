@@ -189,7 +189,7 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className="block mt-4 space-x-8 md:hidden">
+      <div className="flex flex-col items-center justify-center mt-4 space-y-4 md:space-y-0 md:space-x-8 md:flex-row md:hidden">
         <Link href="/about">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             About

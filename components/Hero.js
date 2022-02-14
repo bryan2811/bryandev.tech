@@ -34,7 +34,7 @@ export default function Hero() {
           <picture>
             <source srcset="/avatar.webp" type="image/webp"/> 
             <source srcset="/avatar.png" type="image/png"/> 
-            <img src={userData.avatarUrl} alt="avatar" className="shadow " />
+            <img width="624" height="467" src={userData.avatarUrl} alt="avatar" className="shadow " />
           </picture>
           <div className="flex flex-row justify-end mt-4 lg:relative left-[-65px]">
             <div className="flex flex-row space-x-4">
