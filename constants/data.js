@@ -3,7 +3,7 @@ const userData = {
   name: "Bryan Silva",
   designation: "Front-End Developer",
   actualCompanyLink: "https://leadboxhq.com/",
-  avatarUrl: "/avatar.jpg",
+  avatarUrl: "/avatar-optimized.jpg",
   email: "brandonb2816@gmail.com",
   phone: "+54 342-522-0522",
   address: "Santa Fe, Argentina",
@@ -12,21 +12,25 @@ const userData = {
       title: "Reprasis",
       link: "http://info.reprasis.org/",
       imgUrl: "/info-reprasis-dark.png",
+      imgUrlBlur: "/info-reprasis-blur.jpg",
     },
     {
       title: "Airbnb Clon",
       link: "https://bryan2811.github.io/Airbnb/",
       imgUrl: "/airbnb-clon.png",
+      imgUrlBlur: "/airbnb-clon-blur.jpg",
     },
     {
       title: "Travel Agency",
       link: "https://obscure-springs-20870.herokuapp.com/",
       imgUrl: "/agencia-project.png",
+      imgUrlBlur: "/agencia-project-blur.jpg",
     },
     {
       title: "Netflix Login",
       link: "https://bryan2811.github.io/netflix-clon/index.html",
       imgUrl: "/netflix-login.png",
+      imgUrlBlur: "/netflix-login-blur.jpg",
     }
   ],
   about: {
@@ -43,11 +47,11 @@ const userData = {
   },
   experience: [
     {
-      title: "Front-End Developer",
+      title: "Front-End Developer (Based on Wordpress)",
       company: "Leadbox HQ",
-      year: "2020-2022",
+      year: "2020 - Current",
       companyLink: "https://leadboxhq.com/",
-      desc: "I am currently working in the Core Team developing new features, I am also in charge of improving the Core Web Vitals of each of the sites so that they have a good performance. I use SEO tools such as Ahrefs to check the status of the sites and make the corresponding corrections. I also take care of the development of new sites and the creation of Google Analytics accounts and customized Data Studio reports.",
+      desc: "Currently I work in the Core Team developing new features and components for our main parent theme, which inherit the other child themes on multiple sites. The stack I work with on a daily basis is based on Roots (Sage 10), Tailwind CSS, Laravel, VueJS, and custom Wordpress plugins, among other tools and libraries. \n\n I have been in charge of improving the metrics of the Core Web Vitals of our sites through better coding practices, bundle analyzers, better implementations of scripts and styles, which have helped to improve the scores of tests such as PageSpeed Insights. \n\n I have also contributed in improving the SEO and accessibility conditions of the sites being aware of the guidelines given by A11y and WCAG 2.0 and also tools like Ahrefs. \n\n I have also participated in the creation and configuration of Google Analytics, Tag Manager and Data Studio accounts.",
     },
     {
       title: "Front-End Developer",
@@ -59,7 +63,7 @@ const userData = {
     {
       title: "Student",
       company: "Platzi",
-      year: "2018-2022",
+      year: "2018 - Current",
       companyLink: "https://platzi.com/",
       desc: "I started my first steps in programming on this platform and I am still using it today to continue learning.",
     },

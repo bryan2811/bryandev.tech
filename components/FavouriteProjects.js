@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from 'next/image';
 
 export default function FavouriteProjects() {
   return (
@@ -38,16 +39,16 @@ export default function FavouriteProjects() {
             href="http://info.reprasis.org/" target={'_blank'}
             className="block w-full col-span-3 shadow-2xl"
           >
-            <div className="relative overflow-hidden">
-              <picture>
-                <source srcset="/info-reprasis-dark.webp" type="image/webp"/> 
-                <source srcset="/info-reprasis-dark.png" type="image/png"/> 
-                <img
-                  src="/info-reprasis-dark.png"
-                  alt="Reprasis"
-                  className="transition ease-out transform before:bg-red hover:scale-125 duration-2000"
-                />
-              </picture>
+            <div className="relative h-full overflow-hidden">
+              <Image
+                className="transition ease-out transform before:bg-red hover:scale-125 duration-2000"
+                src="/info-reprasis-dark.png"
+                alt="Reprasis Project"
+                width={1152}
+                height={649}
+                blurDataURL="/info-reprasis-blur.jpg"
+                placeholder="blur"
+              />
               <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
                 Reprasis
               </h1>
@@ -63,15 +64,15 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden">
               {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
-              <picture>
-                <source srcset="/airbnb-clon.webp" type="image/webp"/> 
-                <source srcset="/airbnb-clon.png" type="image/png"/> 
-                <img
-                  src="/airbnb-clon.png"
-                  alt="Airbnb Clon"
-                  className="transition ease-out transform hover:scale-125 duration-2000"
-                />
-              </picture>
+              <Image
+                className="transition ease-out transform hover:scale-125 duration-2000"
+                src="/airbnb-clon.png"
+                alt="Airbnb Project"
+                width={757}
+                height={425}
+                blurDataURL="/airbnb-clon-blur.jpg"
+                placeholder="blur"
+              />
               <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
                 Airbnb Clon
               </h1>
@@ -87,15 +88,15 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
-              <picture>
-                <source srcset="/agencia-project.webp" type="image/webp"/> 
-                <source srcset="/agencia-project.png" type="image/png"/> 
-                <img
-                  src="/agencia-project.png"
-                  alt="Agencia Project"
-                  className="object-cover w-full transition ease-out transform shadow-2xl hover:scale-125 duration-2000"
-                />
-              </picture>
+              <Image
+                className="object-cover w-full transition ease-out transform shadow-2xl hover:scale-125 duration-2000"
+                src="/agencia-project.png"
+                alt="Agency Project"
+                width={363}
+                height={208}
+                blurDataURL="/agencia-project-blur.jpg"
+                placeholder="blur"
+              />
               <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
                 Travel Agency 
               </h1>

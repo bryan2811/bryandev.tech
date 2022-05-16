@@ -1,11 +1,12 @@
 import React from "react";
+import Image from 'next/image';
 import userData from "@constants/data";
 
 export default function Projects() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="h-48 max-w-6xl mx-auto bg-white dark:bg-gray-800">
-        <h1 className="py-20 text-5xl font-bold text-center  md:text-9xl md:text-left">
+        <h1 className="py-20 text-5xl font-bold text-center md:text-9xl md:text-left">
           Projects
         </h1>
       </div>
@@ -17,6 +18,7 @@ export default function Projects() {
               title={proj.title}
               link={proj.link}
               imgUrl={proj.imgUrl}
+              imgUrlBlur={proj.imgUrlBlur}
               number={`${idx + 1}`}
             />
           ))}
@@ -26,15 +28,18 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+const ProjectCard = ({ title, link, imgUrl, imgUrlBlur, number }) => {
   return (
     <a href={link} target={"_blank"} className="block w-full shadow-2xl">
       <div className="relative overflow-hidden">
         <div className="object-cover h-72">
-          <img
+          <Image
             src={imgUrl}
-            alt="portfolio"
-            className="object-cover w-full h-full transition ease-out transform hover:scale-125 duration-2000"
+            alt="Portfolio Images"
+            width={560}
+            height={288}
+            blurDataURL={imgUrlBlur}
+            placeholder="blur"
           />
         </div>
         <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">

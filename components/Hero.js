@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
@@ -31,11 +32,14 @@ export default function Hero() {
       {/* Image container */}
       <div className="relative hidden w-full mt-20 -mr-40 lg:block md:w-1/2">
         <div className="w-3/4 ">
-          <picture>
-            <source srcset="/avatar.webp" type="image/webp"/> 
-            <source srcset="/avatar.png" type="image/png"/> 
-            <img width="624" height="467" src={userData.avatarUrl} alt="avatar" className="shadow " />
-          </picture>
+          <Image
+            src={userData.avatarUrl}
+            alt="Me"
+            width={624}
+            height={467}
+            blurDataURL="/avatar-blur.jpg"
+            placeholder="blur"
+          />
           <div className="flex flex-row justify-end mt-4 lg:relative left-[-65px]">
             <div className="flex flex-row space-x-4">
               <p className="font-mono">That's me</p>
