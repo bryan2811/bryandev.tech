@@ -42,6 +42,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
+        <meta name="google-site-verification" content="YIuChwf8YVVu4SMiZPeZ2I9mzCLMpUG7wehJlgneXGk" />
       </Head>
       <Script
         strategy="afterInteractive"
