@@ -33,6 +33,7 @@ export default function Hero() {
       <div className="relative hidden w-full mt-20 -mr-40 lg:block md:3/5 lg:w-1/2">
         <div className="lg:w-[65%] xl:w-3/4 ">
           <Image
+            className="object-contain"
             src={userData.avatarUrl}
             alt="Me"
             width={624}
