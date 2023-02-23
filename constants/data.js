@@ -49,9 +49,9 @@ const userData = {
     {
       title: "Front-End Developer (Based on Wordpress)",
       company: "Leadbox HQ",
-      year: "2020 - Current",
+      year: "Aug 2020 - Feb 2023",
       companyLink: "https://leadboxhq.com/",
-      desc: "Currently I work in the Core Team developing new features and components for our main parent theme, which inherit the other child themes on multiple sites. The stack I work with on a daily basis is based on Roots (Sage 10), Tailwind CSS, Laravel, VueJS, and custom Wordpress plugins, among other tools and libraries. \n\n I have been in charge of improving the metrics of the Core Web Vitals of our sites through better coding practices, bundle analyzers, better implementations of scripts and styles, which have helped to improve the scores of tests such as PageSpeed Insights. \n\n I have also contributed in improving the SEO and accessibility conditions of the sites being aware of the guidelines given by A11y and WCAG 2.0 and also tools like Ahrefs. \n\n I have also participated in the creation and configuration of Google Analytics, Tag Manager and Data Studio accounts.",
+      desc: "I used to work in the Core Team where I developed new features and components for our main parent theme, which inherited the other child themes on multiple sites. The stack I worked with on a daily basis was based on Roots (Sage 10), Tailwind CSS, Laravel, VueJS, and custom Wordpress plugins, among other tools and libraries. \n\n During my time there, I was responsible for improving the metrics of the Core Web Vitals of our sites through better coding practices, bundle analyzers, better implementations of scripts and styles, which helped to improve the scores of tests such as PageSpeed Insights. \n\n I also contributed to improving the SEO and accessibility conditions of the sites, adhering to the guidelines given by A11y and WCAG 2.0, and using tools like Ahrefs. \n\n\ In addition, I participated in the creation and configuration of Google Analytics, Tag Manager, and Data Studio accounts.",
     },
     {
       title: "Front-End Developer",
