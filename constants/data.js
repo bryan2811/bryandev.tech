@@ -2,11 +2,11 @@ const userData = {
   githubUsername: "bryan2811",
   name: "Bryan Silva",
   designation: "Front-End Developer",
-  actualCompanyLink: "https://leadboxhq.com/",
+  actualCompanyLink: "https://blacksmith.agency/",
   avatarUrl: "/avatar-optimized.jpg",
   email: "brandonb2816@gmail.com",
   phone: "+54 342-522-0522",
-  address: "Santa Fe, Argentina",
+  address: "Argentina",
   projects: [
     {
       title: "Reprasis",
@@ -37,10 +37,11 @@ const userData = {
     title:
       "I'm a software developer that loves building products and web applications that impact millions of lives",
     description: [
-      `I started learning programming when I was 17 years old 👨🏻‍💻 and I fell in love with the Front-End stack, in 2019 I got a Platzi Scholarship that helped me to keep learning while I was still in Venezuela. In 2020 I migrated to Argentina and had the opportunity to participate in a project that would go to the University of Buenos Aires in 2021, in which I contributed my Front-End skills to update some views of this system.`,
-      `Also in that year I started working with Leadbox, a Canadian company that develops solutions to improve the conversions of different car dealers, such as Ford, Honda, Nissan, Toyota, among others.`,
+      `I am currently working as a Frontend Developer at Blacksmith Agency. My primary responsibilities include developing and maintaining custom WordPress themes/plugins, implementing best practices for accessibility and search engine optimization, and ensuring that websites are fully responsive across all devices and browsers.`,
+      `I am highly skilled in HTML, CSS, and JavaScript, and have hands-on experience with SASS/SCSS/LESS and Flexbox. I am also proficient in Git/Bitbucket and have a complete understanding of the WordPress core software and its functions at the code level.`,
       `The technologies I work with on a daily basis are: Tailwind, PHP, VueJS, Javascript, Wordpress.`,
       `I also have knowledge in: React, NodeJS, Web Performance, SEO, Google Analytics, Google Tag Manager, Data Studio.`,
+      `Overall, I am dedicated to delivering high-quality web experiences that are visually stunning, highly functional, and accessible to all users.`
     ],
     currentProject: "Tailwind Master Kit",
     currentProjectUrl: "https://tailwindmasterkit.com",

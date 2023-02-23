@@ -17,10 +17,10 @@ export default function AboutMe() {
           >
             {userData.about.title}. I am currently working on{" "}
             <a
-              className="px-2 py-1 text-white bg-blue-300 rounded-md"
+              className="px-2 py-1 text-white bg-black dark:bg-gray-500 rounded-md"
               href={userData.actualCompanyLink} target={'_blank'}
             >
-              LeadboxHQ 🚘
+              Blacksmith Agency
             </a>
           </p>
         </div>
