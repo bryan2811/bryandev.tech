@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: '/:path*',
-        destination: 'https://devsilv.com/',
+        destination: 'https://devsilv.com/:path*',
         permanent: true,
       },
     ]
